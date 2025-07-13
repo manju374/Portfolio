@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>M Manjunath | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <h1>Portfolio</h1>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+<section id="hero">
+  <img src="assets/profile.jpg" alt="My Profile Picture" class="profile-pic" />
+  <h2>M Manjunath</h2>
+  <p><strong style="color:#1e1e2f;">Web Development</strong> &nbsp;|&nbsp; <strong style="color:#00796b;">Cyber Security</strong></p>
+
+  <a href="assets/Resume.pdf" class="btn" download>Download Resume</a>
+</section>
+
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I'm a passionate full-stack web developer with a strong foundation in modern technologies like Node.js, React.js, Express, and PostgreSQL. I enjoy building efficient, user-friendly web applications and constantly strive to learn and implement new tools and frameworks. With a keen eye for clean UI design and performance optimization, I aim to deliver solutions that are both functional and visually appealing.</p>
+  </section>
+
+  <section id="skills">
+  <h2>Skills</h2>
+  <div class="skills-container">
+    <div class="skill-category">
+      <h3>Programming Languages</h3>
+      <ul>
+        <li>C</li>
+        <li>C++</li>
+        <li>Python</li>
+        <li>Java</li>
+      </ul>
+    </div>
+    <div class="skill-category">
+      <h3>Frontend</h3>
+      <ul>
+        <li>HTML5</li>
+        <li>CSS3</li>
+        <li>JavaScript</li>
+        <li>React.js</li>
+      </ul>
+    </div>
+
+    <div class="skill-category">
+      <h3>Backend</h3>
+      <ul>
+        <li>Node.js</li>
+        <li>Express.js</li>
+        <li>RESTful APIs</li>
+      </ul>
+    </div>
+
+    <div class="skill-category">
+      <h3>Database</h3>
+      <ul>
+        <li>PostgreSQL</li>
+        <li>SQL</li>
+        <li>MongoDB</li>
+      </ul>
+    </div>
+
+    <div class="skill-category">
+      <h3>Cybersecurity</h3>
+      <ul>
+        <li>OWASP Top 10</li>
+        <li>Vulnerability Assessment</li>
+        <li>Secure Coding Practices</li>
+      </ul>
+    </div>
+
+    <div class="skill-category">
+      <h3>Tools</h3>
+      <ul>
+        <li>Git & GitHub</li>
+        <li>VS Code</li>
+        <li>Postman</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+
+  <section id="education">
+  <h2>Education</h2>
+  <div class="education-container">
+    <div class="education-card">
+      <h3>B.E. in Electronics and Communication Engineering</h3>
+      <p><strong>College:</strong> NMIT, Bangalore</p>
+      <p><strong>Duration:</strong> 2022 – 2026</p>
+    </div>
+    <div class="education-card">
+      <h3>PUC (Pre-University Course)</h3>
+      <p><strong>College:</strong> Sri Vidyaniketan PU College</p>
+      <p><strong>Duration:</strong> 2020 – 2022</p>
+      <p><strong>Stream:</strong> PCMB (Physics, Chemistry, Maths, Biology)</p>
+    </div>
+    <div class="education-card">
+      <h3>SSLC</h3>
+      <p><strong>School:</strong> Sri Vidyaniketan Public School<p>
+      <p><strong>Duration:</strong> 2019 – 2020</p>
+      <p><strong>Board:</strong>CBSE</p>
+    </div>
+  </div>
+</section>
+
+
+  <section id="projects">
+  <h2>Projects</h2>
+  <div class="projects-container">
+
+    <!-- Project Card 1 -->
+    <div class="project-card">
+      <img src="assets/Quickreserve.png" alt="QuickReserve Project Screenshot">
+      <div class="project-details">
+        <h3>QuickReserve</h3>
+        <p>Built and deployed QuickReserve, a train ticket booking platform using Node.js, Express, PostgreSQL, and
+vanilla web stack. Users can register, book tickets, and search trains; admins manage trains, bookings, and users
+via a secure dashboard.</p>
+        <a href="https://github.com/manju374/QuickReserve.git" target="_blank" class="github-btn">
+          <i class="fab fa-github"></i> View Code
+        </a>
+      </div>
+    </div>
+
+    <!-- Project Card 2 -->
+    <div class="project-card">
+      <img src="assets/Project_management.png" alt="Team Catalyst Screenshot">
+      <div class="project-details">
+        <h3>Project Management Tool</h3>
+        <p>A full-stack web application for managing projects and tasks with role-based login, real-time chat, Kanban boards, and Gantt chart visualization. Built using Node.js, Express.js, PostgreSQL, and WebSockets.</p>
+        <a href="https://github.com/manju374/Project-Management-Tool.git" target="_blank" class="github-btn">
+          <i class="fab fa-github"></i> View Code
+        </a>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form action="https://formspree.io/f/mvgrejbj" method="POST">
+  <input type="text" name="name" placeholder="Your Name" required />
+  <input type="email" name="email" placeholder="Your Email" required />
+  <textarea name="message" placeholder="Your Message" required></textarea>
+  <button type="submit">Send Message</button>
+</form>
+
+  </section>
+
+  <footer>
+  <p>Connect with me:</p>
+  <div class="social-icons">
+    <a href="https://github.com/manju374" target="_blank"><i class="fab fa-github"></i></a>
+    <a href="https://www.linkedin.com/in/mmanjunath07" target="_blank"><i class="fab fa-linkedin"></i></a>
+    <a href="https://www.instagram.com/m.manjunath_07?igsh=ZWNiY3Vibzlxb3Jo" target="_blank"><i class="fab fa-instagram"></i></a>
+    <a href="https://x.com/MManjunath28152?t=kT8p-QmKtamptIhKAPNQ1Q&s=09" target="_blank"><i class="fab fa-twitter"></i></a>
+  </div>
+  <p>© 2025 M Manjunath. All Rights Reserved</p>
+</footer>
+<script>document.getElementById("contact-form").addEventListener("submit", function (e) {
+  e.preventDefault();
+  alert("Thanks! Your message has been sent.");
+});</script>
+
+</body>
+</html>
