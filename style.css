@@ -1,4 +1,4 @@
-/* Reset & Base */
+
 * {
   margin: 0;
   padding: 0;
@@ -18,7 +18,6 @@ a {
   color: inherit;
 }
 
-/* Header */
 header {
   background: #1e1e2f;
   padding: 1rem 2rem;
@@ -85,7 +84,6 @@ nav h1 {
   color: #fff;
 }
 
-/* Sections */
 section {
   padding: 3rem 2rem;
   max-width: 1000px;
@@ -103,13 +101,11 @@ section p, li {
   font-size: 1.1rem;
 }
 
-/* Education */
 #education ul {
   list-style-type: disc;
   padding-left: 1.5rem;
 }
 
-/* Projects */
 .projects-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -134,7 +130,6 @@ section p, li {
   color: #00796b;
 }
 
-/* Contact */
 #contact-form {
   display: flex;
   flex-direction: column;
@@ -163,7 +158,6 @@ section p, li {
   background: #00bcd4;
 }
 
-/* Footer */
 footer {
   background: #1e1e2f;
   color: white;
@@ -187,7 +181,6 @@ footer {
   color: #00bcd4;
 }
 
-/* Responsive */
 @media (max-width: 768px) {
   nav h1 {
     font-size: 1.4rem;
@@ -235,7 +228,6 @@ footer {
   font-size: 1rem;
 }
 
-/* Contact Section Styling */
 #contact {
   background: #f7f7f7;
   padding: 3rem 2rem;
@@ -297,9 +289,8 @@ form button:hover {
   background: #00bcd4;
 }
 
-/* Fix anchor offset so headings are not hidden behind sticky nav */
 section {
-  scroll-margin-top: 50px; /* adjust to your navbar height */
+  scroll-margin-top: 50px; 
 }
 
 #hero {
@@ -529,7 +520,6 @@ section {
   cursor: pointer;
 }
 
-/* Mobile View */
 @media (max-width: 768px) {
   .hamburger {
     display: block;
