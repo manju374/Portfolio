@@ -10,16 +10,21 @@
 </head>
 <body>
   <header>
-    <nav>
-      <h1>Portfolio</h1>
-      <ul class="nav-links">
-        <li><a href="#about">About</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#education">Education</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
+    <nav class="navbar">
+  <div class="logo"><h3>Portfolio</h3></div>
+
+  <div class="hamburger" id="hamburger">&#9776;</div> <!-- Hamburger Icon -->
+
+  <ul class="nav-links" id="nav-links">
+    <li><a href="#hero">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#education">Education</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+
   </header>
 
 <section id="hero">
@@ -28,6 +33,7 @@
   <p><strong style="color:#1e1e2f;">Web Development</strong> &nbsp;|&nbsp; <strong style="color:#00796b;">Cyber Security</strong></p>
 
   <a href="assets/Resume.pdf" class="btn" download>Download Resume</a>
+  
 </section>
 
 
@@ -176,10 +182,21 @@ via a secure dashboard.</p>
   </div>
   <p>© 2025 M Manjunath. All Rights Reserved</p>
 </footer>
-<script>document.getElementById("contact-form").addEventListener("submit", function (e) {
+<script>
+  const hamburger = document.getElementById('hamburger');
+const navLinks = document.getElementById('nav-links');
+
+hamburger.addEventListener('click', () => {
+  navLinks.classList.toggle('active');
+});
+
+document.getElementById("contact-form").addEventListener("submit", function (e) {
   e.preventDefault();
   alert("Thanks! Your message has been sent.");
-});</script>
+});
+
+
+</script>
 
 </body>
 </html>
